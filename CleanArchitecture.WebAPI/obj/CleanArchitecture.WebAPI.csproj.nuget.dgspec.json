@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectName": "CleanArchitecture.Application",
+        "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\rickt\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rickt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectName": "CleanArchitecture.Domain",
+        "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\rickt\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rickt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "projectName": "CleanArchitecture.Infrastructure",
+        "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rickt\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rickt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj",
+        "projectName": "CleanArchitecture.WebAPI",
+        "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.WebAPI\\CleanArchitecture.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\rickt\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rickt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              },
+              "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

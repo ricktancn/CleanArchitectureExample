@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jw+u6lyJx4c=",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\Github\\CleanArchitectureExample\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rickt\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\rickt\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\rickt\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
